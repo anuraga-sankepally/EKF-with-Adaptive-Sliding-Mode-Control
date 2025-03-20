@@ -1,6 +1,6 @@
 # State Estimation and Robust Control using Kalman Filter and Adaptive Sliding Mode Control
+![demo_AdaptiveSMC GIF](./demo_AdaptiveSMC.gif)
 
-## Description  
 This project demonstrates the integration of a **Kalman Filter** for state estimation and an **Adaptive Sliding Mode Controller (ASMC)** for robust control in the presence of wind disturbances. The system is designed to handle noisy measurements and external disturbances, making it suitable for applications in robotics, autonomous vehicles, and aerospace.
 
 ### Key Components:
@@ -15,12 +15,6 @@ This project demonstrates the integration of a **Kalman Filter** for state estim
    - Adapts to changing conditions (e.g., varying wind disturbances) to maintain stability and performance.  
 
 This project is ideal for those interested in **state estimation**, **robust control**, and **disturbance rejection**, and serves as a practical introduction to advanced control techniques.
-
-## Demo  
-Here’s a demo GIF showcasing the system in action:  
-
-![demo_AdaptiveSMC GIF](./demo_AdaptiveSMC.gif)
-
 
 ## Error Plots and 3-Sigma Bounds  
 The following plots show the **error covariance** and **3-sigma bounds** for the estimated states over time. These plots help visualize the performance and uncertainty of the Kalman Filter.
