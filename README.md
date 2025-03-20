@@ -28,19 +28,19 @@ The following plots show the **error covariance** and **3-sigma bounds** for the
 
 ![Error Covariance Plots](./err_cov_3sig_asmc.png)
 
-# Error Covariance:
+### Error Covariance:
 
 -The error covariance represents the uncertainty in the state estimates (North, East, and Down positions).
 
 -Lower values indicate more accurate estimates, while higher values suggest increased uncertainty.
 
-# 3-Sigma Bounds:
+### 3-Sigma Bounds:
 
 -The 3-sigma bounds define the confidence interval for the estimates. If the error stays within these bounds, the system is performing well.
 
 -These bounds are derived from the Kalman Filter's covariance matrix and reflect the filter's reliability.
 
-# System Performance:
+### System Performance:
 
 -The plots demonstrate the system's ability to maintain accurate state estimates despite external disturbances (e.g., wind).
 
