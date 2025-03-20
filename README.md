@@ -26,22 +26,27 @@ Here’s a demo GIF showcasing the system in action:
 ## Error Plots and 3-Sigma Bounds  
 The following plots show the **error covariance** and **3-sigma bounds** for the estimated states over time. These plots help visualize the performance and uncertainty of the Kalman Filter.
 
-![Error Covariance Plots](./error_cov_plots_kf.png)
+![Error Covariance Plots](./err_cov_3sig_asmc.png)
 
-### Explanation of the Plots:
-- **Error Covariance (\(P\))**: The plots show the error covariance for different states (e.g., position, velocity) over time. The error covariance represents the uncertainty in the Kalman Filter's estimates.
-- **3-Sigma Bounds**: The shaded regions represent the **3-sigma bounds**, which indicate the confidence interval for the estimates. If the errors stay within these bounds, the filter is performing well.
-- **States Tracked**: The states include position (\(x\)), velocity (\(v\)), and other relevant variables. Each plot corresponds to a specific state, showing how the error and uncertainty evolve over time.
+#Error Covariance:
 
-## Control Performance  
-The following plots show the performance of the **Adaptive Sliding Mode Controller (ASMC)** in the presence of wind disturbances:
+-The error covariance represents the uncertainty in the state estimates (North, East, and Down positions).
 
-![Control Performance Plots](./control_performance_plots.png)
+-Lower values indicate more accurate estimates, while higher values suggest increased uncertainty.
 
-### Explanation of the Plots:
-- **Sliding Surface**: The controller drives the system state to the sliding surface, ensuring robustness against disturbances.
-- **Control Input**: The control input adapts to wind disturbances, maintaining stability and performance.
-- **State Trajectory**: The system state converges to the desired trajectory despite the presence of disturbances.
+#3-Sigma Bounds:
+
+-The 3-sigma bounds define the confidence interval for the estimates. If the error stays within these bounds, the system is performing well.
+
+-These bounds are derived from the Kalman Filter's covariance matrix and reflect the filter's reliability.
+
+#System Performance:
+
+-The plots demonstrate the system's ability to maintain accurate state estimates despite external disturbances (e.g., wind).
+
+-The error remains within the 3-sigma bounds for most of the time, indicating robust performance and reliable state estimation.
+
+
 
 ## Packages Required  
 To run this project, you’ll need the following Python packages:  
