@@ -19,7 +19,7 @@ This project is ideal for those interested in **state estimation**, **robust con
 ## Demo  
 Here’s a demo GIF showcasing the system in action:  
 
-![demo_adaptiveSMC GIF](./demo_adaptiveSMC.gif)
+![demo_AdaptiveSMC GIF](./demo_AdaptiveSMC.gif)
 
 *Note: If the GIF doesn't load, you can download it [here](./demo.gif).*
 
